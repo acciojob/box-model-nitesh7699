@@ -1,5 +1,4 @@
 /*  your css code here. If applicable */
-
 body{
 	display:flex;
 	align-items:center;
@@ -13,9 +12,13 @@ body{
 	height:200px;
 	width:400px;
 	border-radius:50px;
-	display:flex;
+/* 	display:flex;
 	align-items:center;
 	justify-content:center;
+	text-align:center; */
+/* 	display:inline; */
+/* 	text-align:center; */
+/* 	position:relative; */
 	text-align:center;
 }
 
@@ -25,13 +28,18 @@ body{
 	border-radius:50px;
 	background-color:green;
 	margin:5px;
+	display:inline-block;
+	text-align:center;
+	margin-top:75px;
 }
+
 .box-2{
 	height:50px;
 	width:50px;
 	border-radius:50px;
 	background-color:yellow;
 	margin:5px;
+	display:inline-block;
 }
 .box-3{
 	height:50px;
@@ -39,5 +47,6 @@ body{
 	border-radius:50px;
 	background-color:red;
 	margin:5px;
+	display:inline-block
 }
 
